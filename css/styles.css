@@ -1,0 +1,23 @@
+
+header {
+  border-bottom: 1px solid #423940;
+  background-color: #fff;
+}
+
+header .brand-name a {
+  color: #000;
+}
+
+header .brand-name a:hover {
+  color: #febd01;
+  transition: all 0.5s;
+}
+
+header .navbar ul li a {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .navbar ul li a::before {
+  background-color: #febd01;
+}
